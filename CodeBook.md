@@ -12,20 +12,20 @@
 
 "tBodyAccmeanZ" | "tGravityAccmeanZ"
 
-###body linear acceleration and angular velocity were derived in time to obtain Jerk signals
+#####body linear acceleration and angular velocity were derived in time to obtain Jerk signals
 "tBodyAccJerkmeanX"
 
 "tBodyAccJerkmeanY"
 
 "tBodyAccJerkmeanZ"
 
-###magnitude of these three-dimensional signals were calculated using the Euclidean norm
+#####magnitude of these three-dimensional signals were calculated using the Euclidean norm
 "tBodyAccMagmean" 
 
 
 "tGravityAccMagmean"
 
-###body linear acceleration and angular velocity were derived in time to obtain Jerk signals
+#####body linear acceleration and angular velocity were derived in time to obtain Jerk signals
 "tBodyAccJerkMagmean" 
 
 
@@ -39,14 +39,14 @@
 "tBodyAccstdZ" | "tGravityAccstdZ" 
 
 
-###body linear acceleration and angular velocity were derived in time to obtain Jerk signals
+#####body linear acceleration and angular velocity were derived in time to obtain Jerk signals
 "tBodyAccJerkstdX" 
 
 "tBodyAccJerkstdY" 
 
 "tBodyAccJerkstdZ" 
 
-###magnitude of these three-dimensional signals were calculated using the Euclidean norm
+#####magnitude of these three-dimensional signals were calculated using the Euclidean norm
 "tBodyAccMagstd" 
 
 
@@ -68,17 +68,17 @@
 "tBodyGyromeanZ" 
 
 
-###body linear acceleration and angular velocity were derived in time to obtain Jerk signals
+#####body linear acceleration and angular velocity were derived in time to obtain Jerk signals
 "tBodyGyroJerkmeanX" 
 
 "tBodyGyroJerkmeanY" 
 
 "tBodyGyroJerkmeanZ" 
 
-###magnitude of these three-dimensional signals were calculated using the Euclidean norm
+#####magnitude of these three-dimensional signals were calculated using the Euclidean norm
 "tBodyGyroMagmean"
 
-###body linear acceleration and angular velocity were derived in time to obtain Jerk signals
+#####body linear acceleration and angular velocity were derived in time to obtain Jerk signals
 "tBodyGyroJerkMagmean"
 
 
@@ -91,14 +91,14 @@
 
 "tBodyGyrostdZ" 
 
-###body linear acceleration and angular velocity were derived in time to obtain Jerk signals
+#####body linear acceleration and angular velocity were derived in time to obtain Jerk signals
 "tBodyGyroJerkstdX" 
 
 "tBodyGyroJerkstdY" 
 
 "tBodyGyroJerkstdZ" 
 
-###magnitude of these three-dimensional signals were calculated using the Euclidean norm
+#####magnitude of these three-dimensional signals were calculated using the Euclidean norm
 "tBodyGyroMagstd" 
 
 
@@ -123,7 +123,7 @@
 "fBodyAccmeanFreqZ" 
 
 
-###body linear acceleration and angular velocity were derived in time to obtain Jerk signals
+#####body linear acceleration and angular velocity were derived in time to obtain Jerk signals
 "fBodyAccJerkmeanX" 
 
 "fBodyAccJerkmeanY" 
@@ -137,7 +137,7 @@
 
 "fBodyAccJerkmeanFreqZ" 
 
-###magnitude of these three-dimensional signals were calculated using the Euclidean norm
+#####magnitude of these three-dimensional signals were calculated using the Euclidean norm
 "fBodyAccMagmean" 
 
 
@@ -164,7 +164,7 @@
 
 "fBodyAccJerkstdZ" 
 
-###magnitude of these three-dimensional signals were calculated using the Euclidean norm
+#####magnitude of these three-dimensional signals were calculated using the Euclidean norm
 "fBodyAccMagstd" 
 
 
@@ -185,7 +185,7 @@
 
 "fBodyGyromeanFreqZ" 
 
-###magnitude of these three-dimensional signals were calculated using the Euclidean norm
+#####magnitude of these three-dimensional signals were calculated using the Euclidean norm
 "fBodyBodyGyroMagmean" 
 
 "fBodyBodyGyroMagmeanFreq" 
@@ -203,7 +203,7 @@
 "fBodyGyrostdZ" 
 
 
-###magnitude of these three-dimensional signals were calculated using the Euclidean norm
+#####magnitude of these three-dimensional signals were calculated using the Euclidean norm
 "fBodyBodyGyroMagstd" 
 
 
