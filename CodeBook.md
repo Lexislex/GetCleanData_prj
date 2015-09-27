@@ -2,35 +2,41 @@
 
 "activity_l" 
 
-"tBodyAccmeanX" | "tGravityAccmeanX" |
-                |                    |
-"tBodyAccmeanY" | "tGravityAccmeanY" |
-                |                    |
-"tBodyAccmeanZ" | "tGravityAccmeanZ" |
+##Averages of accelerometer raw signals
 
-"tBodyAccstdX" 
+"tBodyAccmeanX" | "tGravityAccmeanX"
 
-"tBodyAccstdY" 
+"tBodyAccmeanY" | "tGravityAccmeanY"
 
-"tBodyAccstdZ" 
+"tBodyAccmeanZ" | "tGravityAccmeanZ"
 
-"tGravityAccmeanX" 
 
-"tGravityAccmeanY" 
+"tBodyAccJerkmeanX"
 
-"tGravityAccmeanZ" 
+"tBodyAccJerkmeanY"
 
-"tGravityAccstdX" 
+"tBodyAccJerkmeanZ"
 
-"tGravityAccstdY" 
 
-"tGravityAccstdZ" 
+"tBodyAccMagmean" 
 
-"tBodyAccJerkmeanX" 
 
-"tBodyAccJerkmeanY" 
+"tGravityAccMagmean"
 
-"tBodyAccJerkmeanZ" 
+
+"tBodyAccJerkMagmean" 
+
+
+
+
+##Standard deviations of accelerometer raw signals
+"tBodyAccstdX" | "tGravityAccstdX" 
+
+"tBodyAccstdY" | "tGravityAccstdY" 
+
+"tBodyAccstdZ" | "tGravityAccstdZ" 
+
+
 
 "tBodyAccJerkstdX" 
 
@@ -38,17 +44,28 @@
 
 "tBodyAccJerkstdZ" 
 
+
+"tBodyAccMagstd" 
+
+
+"tGravityAccMagstd" 
+
+
+"tBodyAccJerkMagstd" 
+
+
+
+
+
+
+##Averages of gyroscope raw signals
 "tBodyGyromeanX" 
 
 "tBodyGyromeanY" 
 
 "tBodyGyromeanZ" 
 
-"tBodyGyrostdX" 
 
-"tBodyGyrostdY" 
-
-"tBodyGyrostdZ" 
 
 "tBodyGyroJerkmeanX" 
 
@@ -56,43 +73,46 @@
 
 "tBodyGyroJerkmeanZ" 
 
+
+"tBodyGyroMagmean"
+
+
+"tBodyGyroJerkMagmean"
+
+
+ 
+
+##Standard deviations of gyroscope raw signals
+"tBodyGyrostdX" 
+
+"tBodyGyrostdY" 
+
+"tBodyGyrostdZ" 
+
+
 "tBodyGyroJerkstdX" 
 
 "tBodyGyroJerkstdY" 
 
 "tBodyGyroJerkstdZ" 
 
-"tBodyAccMagmean" 
-
-"tBodyAccMagstd" 
-
-"tGravityAccMagmean" 
-
-"tGravityAccMagstd" 
-
-"tBodyAccJerkMagmean" 
-
-"tBodyAccJerkMagstd" 
-
-"tBodyGyroMagmean" 
 
 "tBodyGyroMagstd" 
 
-"tBodyGyroJerkMagmean" 
 
 "tBodyGyroJerkMagstd" 
 
+
+
+
+##Averages of accelerometer Fast Fourier Transform (FFT)
 "fBodyAccmeanX" 
 
 "fBodyAccmeanY" 
 
 "fBodyAccmeanZ" 
 
-"fBodyAccstdX" 
 
-"fBodyAccstdY" 
-
-"fBodyAccstdZ" 
 
 "fBodyAccmeanFreqX" 
 
@@ -100,17 +120,14 @@
 
 "fBodyAccmeanFreqZ" 
 
+
+
 "fBodyAccJerkmeanX" 
 
 "fBodyAccJerkmeanY" 
 
 "fBodyAccJerkmeanZ" 
 
-"fBodyAccJerkstdX" 
-
-"fBodyAccJerkstdY" 
-
-"fBodyAccJerkstdZ" 
 
 "fBodyAccJerkmeanFreqX" 
 
@@ -118,17 +135,47 @@
 
 "fBodyAccJerkmeanFreqZ" 
 
+
+"fBodyAccMagmean" 
+
+
+"fBodyAccMagmeanFreq" 
+
+
+"fBodyBodyAccJerkMagmean" 
+
+
+"fBodyBodyAccJerkMagmeanFreq" 
+
+
+##Standard deviations of accelerometer Fast Fourier Transform (FFT)
+"fBodyAccstdX" 
+
+"fBodyAccstdY" 
+
+"fBodyAccstdZ" 
+
+
+"fBodyAccJerkstdX" 
+
+"fBodyAccJerkstdY" 
+
+"fBodyAccJerkstdZ" 
+
+
+"fBodyAccMagstd" 
+
+
+"fBodyBodyAccJerkMagstd" 
+
+
+##Averages of gyroscope Fast Fourier Transform (FFT)
 "fBodyGyromeanX" 
 
 "fBodyGyromeanY" 
 
 "fBodyGyromeanZ" 
 
-"fBodyGyrostdX" 
-
-"fBodyGyrostdY" 
-
-"fBodyGyrostdZ" 
 
 "fBodyGyromeanFreqX" 
 
@@ -136,26 +183,27 @@
 
 "fBodyGyromeanFreqZ" 
 
-"fBodyAccMagmean" 
-
-"fBodyAccMagstd" 
-
-"fBodyAccMagmeanFreq" 
-
-"fBodyBodyAccJerkMagmean" 
-
-"fBodyBodyAccJerkMagstd" 
-
-"fBodyBodyAccJerkMagmeanFreq" 
 
 "fBodyBodyGyroMagmean" 
-
-"fBodyBodyGyroMagstd" 
 
 "fBodyBodyGyroMagmeanFreq" 
 
 "fBodyBodyGyroJerkMagmean" 
 
-"fBodyBodyGyroJerkMagstd" 
-
 "fBodyBodyGyroJerkMagmeanFreq"
+
+
+##Standard deviations of gyroscope Fast Fourier Transform (FFT)
+"fBodyGyrostdX" 
+
+"fBodyGyrostdY" 
+
+"fBodyGyrostdZ" 
+
+
+
+"fBodyBodyGyroMagstd" 
+
+
+
+"fBodyBodyGyroJerkMagstd" 
