@@ -4,4 +4,4 @@ This script works with [special dataset](https://d396qusza40orc.cloudfront.net/g
 
 After extracting data script calculate average for 79 variables for every participant and type of activity.
 
-Overview of variables see in CodeBook.md
+Overview of variables see in [CodeBook.md](https://github.com/Lexislex/GetCleanData_prj/blob/master/CodeBook.md)
