@@ -2,7 +2,6 @@ run_analysis <- function(){
     #load library for casting final data frame
     library(reshape2)
     #creating necessary variables
-    #tidy_data <- data.frame()
     cursor <- c()
     columns <- c()
     
@@ -45,6 +44,8 @@ run_analysis <- function(){
     tidy_data<- rbind(tidy_data, read.fwf("./train/x_train.txt", 
                                           widths = cursor, 
                                           col.names = columns))
+    #removing dots from column names
+    names(tidy_data) <- gsub("\\.", "", names(tidy_data))
     #adding information about subjects and its activities to dataset
     tidy_data$activity_l <- activity[,2]
     tidy_data$subject_id <- subject[,1]
