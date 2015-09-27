@@ -2,11 +2,11 @@
 
 "activity_l" 
 
-"tBodyAccmeanX" 
+"tBodyAccmeanX" | "tGravityAccmeanX"
 
-"tBodyAccmeanY" 
+"tBodyAccmeanY" | "tGravityAccmeanY"
 
-"tBodyAccmeanZ" 
+"tBodyAccmeanZ" | "tGravityAccmeanZ" 
 
 "tBodyAccstdX" 
 
