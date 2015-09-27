@@ -44,7 +44,7 @@ run_analysis <- function(){
     tidy_data<- rbind(tidy_data, read.fwf("./train/x_train.txt", 
                                           widths = cursor, 
                                           col.names = columns))
-    #removing dots from column names
+    #removing dots from columns names
     names(tidy_data) <- gsub("\\.", "", names(tidy_data))
     #adding information about subjects and its activities to dataset
     tidy_data$activity_l <- activity[,2]
