@@ -19,7 +19,7 @@
 
 "tBodyAccJerkmeanZ"
 
-
+###magnitude of these three-dimensional signals were calculated using the Euclidean norm
 "tBodyAccMagmean" 
 
 
@@ -46,7 +46,7 @@
 
 "tBodyAccJerkstdZ" 
 
-
+###magnitude of these three-dimensional signals were calculated using the Euclidean norm
 "tBodyAccMagstd" 
 
 
@@ -75,7 +75,7 @@
 
 "tBodyGyroJerkmeanZ" 
 
-
+###magnitude of these three-dimensional signals were calculated using the Euclidean norm
 "tBodyGyroMagmean"
 
 
@@ -98,7 +98,7 @@
 
 "tBodyGyroJerkstdZ" 
 
-
+###magnitude of these three-dimensional signals were calculated using the Euclidean norm
 "tBodyGyroMagstd" 
 
 
@@ -137,7 +137,7 @@
 
 "fBodyAccJerkmeanFreqZ" 
 
-
+###magnitude of these three-dimensional signals were calculated using the Euclidean norm
 "fBodyAccMagmean" 
 
 
@@ -164,7 +164,7 @@
 
 "fBodyAccJerkstdZ" 
 
-
+###magnitude of these three-dimensional signals were calculated using the Euclidean norm
 "fBodyAccMagstd" 
 
 
@@ -185,7 +185,7 @@
 
 "fBodyGyromeanFreqZ" 
 
-
+###magnitude of these three-dimensional signals were calculated using the Euclidean norm
 "fBodyBodyGyroMagmean" 
 
 "fBodyBodyGyroMagmeanFreq" 
@@ -203,7 +203,7 @@
 "fBodyGyrostdZ" 
 
 
-
+###magnitude of these three-dimensional signals were calculated using the Euclidean norm
 "fBodyBodyGyroMagstd" 
 
 
