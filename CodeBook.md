@@ -12,7 +12,7 @@
 
 "tBodyAccmeanZ" | "tGravityAccmeanZ"
 
-
+###body linear acceleration and angular velocity were derived in time to obtain Jerk signals
 "tBodyAccJerkmeanX"
 
 "tBodyAccJerkmeanY"
@@ -25,7 +25,7 @@
 
 "tGravityAccMagmean"
 
-
+###body linear acceleration and angular velocity were derived in time to obtain Jerk signals
 "tBodyAccJerkMagmean" 
 
 
@@ -39,7 +39,7 @@
 "tBodyAccstdZ" | "tGravityAccstdZ" 
 
 
-
+###body linear acceleration and angular velocity were derived in time to obtain Jerk signals
 "tBodyAccJerkstdX" 
 
 "tBodyAccJerkstdY" 
@@ -68,7 +68,7 @@
 "tBodyGyromeanZ" 
 
 
-
+###body linear acceleration and angular velocity were derived in time to obtain Jerk signals
 "tBodyGyroJerkmeanX" 
 
 "tBodyGyroJerkmeanY" 
@@ -78,7 +78,7 @@
 ###magnitude of these three-dimensional signals were calculated using the Euclidean norm
 "tBodyGyroMagmean"
 
-
+###body linear acceleration and angular velocity were derived in time to obtain Jerk signals
 "tBodyGyroJerkMagmean"
 
 
@@ -91,7 +91,7 @@
 
 "tBodyGyrostdZ" 
 
-
+###body linear acceleration and angular velocity were derived in time to obtain Jerk signals
 "tBodyGyroJerkstdX" 
 
 "tBodyGyroJerkstdY" 
@@ -123,7 +123,7 @@
 "fBodyAccmeanFreqZ" 
 
 
-
+###body linear acceleration and angular velocity were derived in time to obtain Jerk signals
 "fBodyAccJerkmeanX" 
 
 "fBodyAccJerkmeanY" 
