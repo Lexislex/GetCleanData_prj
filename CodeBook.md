@@ -1,6 +1,8 @@
-"subject_id" 
+#Overview of result dataset variables
 
-"activity_l" 
+"subject_id" - subjects (partisipants) id
+
+"activity_l" - type of activity
 
 ##Averages of accelerometer raw signals
 
